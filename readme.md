@@ -1,3 +1,5 @@
+Brief Summary:
+
 This is a simple project to explain why analaysis of data to derive meaningful insights should be done on DWH side (popularly called as OLAP), rather OLTP.
 
 To prove that have created a databse of dvdrental store (credit: Postgre official site)
@@ -8,9 +10,13 @@ Post modelling created and inserted data using  pgAdmin 4 query tool and solved 
 And Yes ! OLTP side tables does take more time to fetch same result than OLAP tables. Such time difference matters when we are dealling with peta/exa bytes of data.
 
 Components:
-DWHmodelling from OLTP DB dvdrental.drawio -  Simple DataModel Diagram
-DWHmodellingQueries.sql                    - Create and Insert Scripts
-OLTP_vs_OLAP_query_time_compare            - Use case to prove time
+
+
+1) DWHmodelling from OLTP DB dvdrental.drawio -  Simple DataModel Diagram. 
+Use link --> https://www.draw.io/?mode=github    to open online.
+
+2) DWHmodellingQueries.sql                    - Create and Insert Scripts
+3) OLTP_vs_OLAP_query_time_compare            - Use case to prove time
 
 
 
